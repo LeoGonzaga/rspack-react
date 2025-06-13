@@ -1,16 +1,10 @@
-import Button from "./components/Button";
+import Home from "./features/Home";
 import "./styles.scss";
 
 const App = () => {
-  const handleClick = () => {
-    console.log("Clicou");
-  };
-
   return (
     <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building asd things with Rsbuild.</p>
-      <Button onClick={handleClick}>Clique</Button>
+      <Home />
     </div>
   );
 };
