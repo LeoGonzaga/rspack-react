@@ -1,29 +1,14 @@
-# Rsbuild project
+git clone https://github.com/LeoGonzaga/rspack-react.git
+cd rspack-react
 
-## Setup
+# Instala dependências
 
-Install the dependencies:
+npm install
 
-```bash
-pnpm install
-```
+# Rodar em modo desenvolvimento
 
-## Get started
+npm run dev
 
-Start the dev server:
+# Gerar build de produção
 
-```bash
-pnpm dev
-```
-
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
+npm run build
