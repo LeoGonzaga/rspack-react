@@ -1,14 +1,43 @@
-git clone https://github.com/LeoGonzaga/rspack-react.git
-cd rspack-react
+![Logo](https://assets.rspack.rs/rspack/navbar-logo-dark.png)
 
-# Instala dependências
+# Boilerplate - Rspack
 
-npm install
+Tech:
 
-# Rodar em modo desenvolvimento
+```bash
+- Rspack
+- React
+- Scss
+- Typescript
+- React Testing Library
+- Jest
+- Commitlint
+- Husky
+- Git cz
+```
 
-npm run dev
+## Installation
 
-# Gerar build de produção
+Install with yarn
 
-npm run build
+```bash
+  cd rspack-react
+  yarn
+  yarn dev
+```
+
+## Tests
+
+```bash
+  yarn test
+```
+
+## Usage/Examples
+
+```javascript
+import Component from "my-project";
+
+function App() {
+  return <Component />;
+}
+```
