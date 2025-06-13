@@ -1,4 +1,4 @@
-import { JSX } from "react";
+import React, { JSX } from "react";
 import { ButtonProps } from "./types";
 
 export const Button = ({ children, ...props }: ButtonProps): JSX.Element => {

@@ -4,4 +4,5 @@ export default {
   coverageDirectory: "coverage",
   testEnvironment: "jsdom",
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
+  testMatch: ["**/?(*.)+(spec|test).[jt]s?(x)"],
 };

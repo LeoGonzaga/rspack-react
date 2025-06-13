@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
-    "jsx": "preserve",
+    "target": "ES6",
+    "lib": ["DOM", "ES2015"],
+    "types": ["@testing-library/jest-dom"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "react-jsx",
     "esModuleInterop": true,
-    "types": ["@testing-library/jest-dom"]
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   }
 }
