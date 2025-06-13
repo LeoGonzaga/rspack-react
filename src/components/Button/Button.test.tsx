@@ -1,4 +1,3 @@
-import React, { JSX } from "react";
 import { render, screen } from "@testing-library/react";
 import { Button } from "./Button";
 
@@ -7,7 +6,7 @@ import userEvent from "@testing-library/user-event";
 const LABEL = "Clique aqui";
 
 describe("Button - Component", () => {
-  it("should render the component", () => {
+  it("should render the component with right label", () => {
     render(<Button>{LABEL}</Button>);
     const buttonLabel = screen.getByText(LABEL);
 
